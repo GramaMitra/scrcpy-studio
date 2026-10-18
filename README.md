@@ -31,7 +31,10 @@ On first launch, choose your scrcpy folder (the one containing `scrcpy.exe` and 
 See [BUILD.md](BUILD.md).
 
 ## Screenshots
-Add images to `docs/screenshots/` and reference them here.
+![Main Window](docs/screenshots/main-window.png)
+![Monitor Tab](docs/screenshots/monitor-preview.png)
+![Video Tab](docs/screenshots/video-preview.png)
+![Search Mode](docs/screenshots/wifi-mode.png)
 
 ## Notes
 - "Device response" in the monitor is the adb round-trip time, not video latency.

@@ -31,7 +31,10 @@ Saat pertama dibuka, pilih folder scrcpy (yang berisi `scrcpy.exe` dan `adb.exe`
 Lihat [BUILD.id.md](BUILD.id.md).
 
 ## Screenshot
-Tambahkan gambar ke `docs/screenshots/` lalu rujuk di sini.
+![Jendela Utama](docs/screenshots/main-window.png)
+![Tab Monitor](docs/screenshots/monitor-preview.png)
+![Tab Video](docs/screenshots/video-preview.png)
+![Mode Pencarian](docs/screenshots/wifi-mode.png)
 
 ## Catatan
 - "Respons perangkat" di monitor adalah waktu round-trip adb, bukan latensi video.
