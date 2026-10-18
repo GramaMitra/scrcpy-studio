@@ -1,0 +1,71 @@
+{
+  "name": "scrcpy-studio",
+  "productName": "Scrcpy Studio",
+  "version": "1.0.0",
+  "description": "Premium GUI for scrcpy: mirror Android over USB or Wi-Fi without typing commands.",
+  "author": "Gram",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/USERNAME/scrcpy-studio.git"
+  },
+  "homepage": "https://github.com/USERNAME/scrcpy-studio#readme",
+  "bugs": {
+    "url": "https://github.com/USERNAME/scrcpy-studio/issues"
+  },
+  "keywords": ["scrcpy", "electron", "android", "screen-mirroring", "adb", "gui"],
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.gram.scrcpystudio",
+    "productName": "Scrcpy Studio",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "index.html",
+      "main.js",
+      "preload.js",
+      "icon.png",
+      "icon.ico",
+      "logo.svg",
+      "i18n.js",
+      "package.json"
+    ],
+    "win": {
+      "icon": "icon.ico",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "artifactName": "${name}-Setup-${version}.${ext}"
+    },
+    "portable": {
+      "artifactName": "${name}-Portable-${version}.${ext}"
+    }
+  }
+}
