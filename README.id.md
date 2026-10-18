@@ -34,7 +34,7 @@ Lihat [BUILD.id.md](BUILD.id.md).
 ![Jendela Utama](docs/screenshots/main-window.png)
 ![Tab Monitor](docs/screenshots/monitor-preview.png)
 ![Tab Video](docs/screenshots/video-preview.png)
-![Mode Pencarian](docs/screenshots/wifi-mode.png)
+![Mode Pencarian](docs/screenshots/search-mode.png)
 
 ## Catatan
 - "Respons perangkat" di monitor adalah waktu round-trip adb, bukan latensi video.

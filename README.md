@@ -34,7 +34,7 @@ See [BUILD.md](BUILD.md).
 ![Main Window](docs/screenshots/main-window.png)
 ![Monitor Tab](docs/screenshots/monitor-preview.png)
 ![Video Tab](docs/screenshots/video-preview.png)
-![Search Mode](docs/screenshots/wifi-mode.png)
+![Search Mode](docs/screenshots/search-mode.png)
 
 ## Notes
 - "Device response" in the monitor is the adb round-trip time, not video latency.
