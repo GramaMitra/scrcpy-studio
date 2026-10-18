@@ -7,11 +7,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/USERNAME/scrcpy-studio.git"
+    "url": "git+https://github.com/GramaMitra/scrcpy-studio.git"
   },
-  "homepage": "https://github.com/USERNAME/scrcpy-studio#readme",
+  "homepage": "https://github.com/GramaMitra/scrcpy-studio#readme",
   "bugs": {
-    "url": "https://github.com/USERNAME/scrcpy-studio/issues"
+    "url": "https://github.com/GramaMitra/scrcpy-studio/issues"
   },
   "keywords": ["scrcpy", "electron", "android", "screen-mirroring", "adb", "gui"],
   "main": "main.js",
